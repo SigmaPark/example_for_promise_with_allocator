@@ -66,7 +66,7 @@ static void Example01()
 }
 
 
-int main( int const, char const*(&)[] )
+int main(int const, char const* const* const)
 {	Example01();
 	
 	return 0;
